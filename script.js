@@ -6,7 +6,8 @@ const people = require('./people.js')
 const getSubjectInfo = () => {
   return {
     subjectInfo: subject('Gennaro', 'Buonomo'),
-    hobbies: hobbies('Nuoto', 'Palestra', 'Rugby')
+    hobbies: hobbies('Nuoto', 'Palestra', 'Rugby'),
+    people: people('Gennaro','Nuoto')
   }
 }
 
