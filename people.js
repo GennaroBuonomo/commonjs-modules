@@ -1,9 +1,9 @@
 // definisco una funzione che mi restituisce un oggetto con nome e Hobby
-const peoples = (firstName, hobbyOne) => {
+const people = (firstName, hobbyOne) => {
   return {
     firstName,
     hobbyOne
   }
 }
 
-module.exports = peoples
+module.exports = people
