@@ -5,3 +5,5 @@ const subject = (firstName, lastName) => {
     lastName
   }
 }
+
+module.exports = subject
